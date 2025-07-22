@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed top-0 left-0 right-0 z-50  px-5 md:px-20 lg:px-32 xl:px-64 flex flex-wrap items-center py-4">
+    <header class="fixed top-0 left-0 right-0 z-50 p-2 md:px-14 lg:px-22 xl:px-32 2xl:px-64 flex flex-wrap items-center py-4">
         <div class="flex-1 flex justify-between items-center">
             <a href="#" class="text-4xl font-bold text-gray-800">Sieng <span class="text-[#2DA6FF]">Vathana</span></a>
         </div>
