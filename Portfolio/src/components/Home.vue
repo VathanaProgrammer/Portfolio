@@ -12,49 +12,69 @@
         />
 
         <!-- Icons stay close to image -->
-        <VueIcon class="absolute top-32 left-14 hover:scale-110 transition" />
-        <JsIcon class="absolute top-16 right-16 hover:scale-110 transition" />
-        <PhpIcon class="absolute top-48 right-4 hover:scale-110 transition" />
+        <VueIcon
+          class="absolute left-6 top-24 md:top-32 md:left-14 hover:scale-110 transition"
+        />
+        <JsIcon
+          class="absolute top-16 right-1 md:top-16 md:right-16 hover:scale-110 transition"
+        />
+        <PhpIcon
+          class="absolute top-42 md:top-58 md:left-4 lg:top-68 lg:left-12 hover:scale-110 transition"
+        />
+        <SpringBootIcon
+          class="absolute top-42 -right-2 md:top-48 md:right-1 lg:top-48 lg:right-4 hover:scale-110 transition"
+        />
         <ReactIcon
-          class="absolute bottom-62 left-2 hover:scale-110 transition"
+          class="absolute bottom-15 -left-4 md:bottom-12 lg:bottom-22 xl:bottom-62 xl:left-2 hover:scale-110 transition"
         />
         <TailwindIcon
-          class="absolute bottom-78 -right-5 hover:scale-110 transition"
+          class="absolute bottom-10 -right-6 md:bottom-35 lg:bottom-55 xl:bottom-78 md:-right-5 hover:scale-110 transition"
         />
       </div>
     </section>
 
     <!-- Left Section: Text (order changes) -->
     <section
-      class="gap-2 xl:gap-4 text-start px-8 flex flex-col items-start justify-center order-2 lg:order-1"
+      class="gap-4 mt-4 lg:mt-0 text-start px-8 flex flex-col items-start justify-center order-2 lg:order-1"
     >
-      <h1 class="lg:text-5xl xl:text-6xl text-gray-800 font-medium">
+      <h1
+        class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 font-bold"
+      >
         Hello Mate
-        <span style="font-size: 4rem; text-shadow: 0 0 5px #ffd700">👋</span>
+        <span class="text-4xl md:text-5xl xl:text-7xl animate-waving-hand"
+          >👋</span
+        >
       </h1>
-      <h1 class="lg:text-5xl xl:text-6xl text-gray-800 font-semibold">
-        I'm Sieng Vathana
+
+      <h1
+        class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 font-extrabold mt-2"
+      >
+        I'm <span class="text-[#2DA6FF]">Sieng Vathana</span>
       </h1>
-      <h1 class="lg:text-5xl text-6xl text-[#2DA6FF] font-semibold">
-        Junior Full Stack Developer
-      </h1>
-      <div class="xl:gap-4 lg:gap-2 flex flex-col md:flex-row">
-        <button class="mt-4">
-          <a
-            href=""
-            class="bg-[#1da1ff] hover:bg-white hover:text-gray-800 transition duration-300 px-6 py-2 text-white shadow-md lg:text-xl xl:text-2xl font-normal cursor-pointer"
-          >
-            About me
-          </a>
-        </button>
-        <button class="mt-4">
-          <a
-            href="SiengVathana_CV.pptx"
-            class="bg-white hover:bg-[#1da1ff] hover:text-white transition duration-300 px-6 py-2 text-gray-800 shadow-md lg:text-xl xl:text-2xl font-normal cursor-pointer"
-          >
-            Download CV
-          </a>
-        </button>
+
+      <p
+        class="text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-600 mt-4 leading-relaxed"
+      >
+        Junior Full Stack Developer | Crafting modern web experiences with Vue,
+        React, Spring Boot, Django PHP.
+      </p>
+
+      <div
+        class="w-full flex flex-col gap-4 mt-6 justify-center sm:justify-start sm:flex-row"
+      >
+        <a
+          href="#"
+          class="bg-[#1da1ff] hover:bg-white hover:text-[#1da1ff] border-2 border-[#1da1ff] transition-all duration-300 px-4 py-2 md:px-8 md:py-3 text-white shadow-lg text-lg md:text-xl xl:text-2xl font-semibold rounded-lg hover:scale-105"
+        >
+          About Me
+        </a>
+
+        <a
+          href="SiengVathana_CV.pptx"
+          class="bg-white text-[#1da1ff] border-2 border-[#1da1ff] hover:bg-[#1da1ff] hover:text-white transition-all duration-300 px-8 py-3 shadow-lg text-lg md:text-xl xl:text-2xl font-semibold rounded-lg hover:scale-105"
+        >
+          Download CV
+        </a>
       </div>
     </section>
   </div>
@@ -75,7 +95,7 @@ export default {
     TailwindIcon,
     SpringBootIcon,
     JsIcon,
-    PhpIcon
+    PhpIcon,
   },
 };
 </script>
