@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@iconify/vue": "^5.0.0",
     "@tailwindcss/vite": "^4.1.11",
     "flyonui": "^2.3.1",
