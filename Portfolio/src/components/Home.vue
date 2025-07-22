@@ -4,9 +4,9 @@
     <section class="relative w-full h-full order-1 lg:order-2">
       <VueIcon class="absolute lg:top-18 lg:left-34 2xl:top-72 2xl:left-28 xl:top-22 xl:left-22 z-10" />
       <JsIcon class="absolute lg:top-32 lg:left-34 2xl:top-96 2xl:left-14 xl:top-22 xl:left-22 z-10" />
-      <ReactIcon class="absolute lg:top-16 lg:left-78  2xl:top-30 2xl:left-[540px] xl:top-28 xl:left-[420px] z-10" />
-      <TailwindIcon class="absolute lg:top-45 lg:left-94 2xl:top-86 2xl:left-[580px] xl:top-55 xl:left-[490px] z-10" />
-      <SpringBootIcon class="absolute lg:top-22 lg:left-[420px] 2xl:top-78 2xl:left-[680px] xl:top-86 xl:left-[520px] z-10" />
+      <ReactIcon class="absolute lg:top-16 lg:left-78  2xl:top-30 2xl:left-[510px] xl:top-28 xl:left-[420px] z-10" />
+      <TailwindIcon class="absolute lg:top-45 lg:left-94 2xl:top-86 2xl:left-[550px] xl:top-55 xl:left-[490px] z-10" />
+      <SpringBootIcon class="absolute lg:top-22 lg:left-[420px] 2xl:top-60 2xl:left-[640px] xl:top-86 xl:left-[520px] z-10" />
       <img
         src="../assets/image/doc_2025-07-22_02-23-29........s.png"
         class="w-full h-full object-cover"
