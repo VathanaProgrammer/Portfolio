@@ -3,3 +3,6 @@
 body {
       font-family: "Archivo Narrow", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}

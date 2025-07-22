@@ -35,7 +35,7 @@
 
     <!-- Left Section: Text (order changes) -->
     <section
-      class="gap-4 mt-4 lg:mt-0 text-start px-8 flex flex-col items-start justify-center order-2 lg:order-1"
+      class="gap-0 md:gap-4 mt-4 lg:mt-0 text-start px-8 flex flex-col items-start justify-center order-2 lg:order-1"
     >
       <h1
         class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 font-bold"
@@ -60,10 +60,10 @@
       </p>
 
       <div
-        class="w-full flex flex-col gap-4 mt-6 justify-center sm:justify-start sm:flex-row"
+        class="w-full flex flex-col gap-2 md:gap-4 mt-6 justify-center sm:justify-start sm:flex-row"
       >
         <a
-          href="#"
+          href="#about"
           class="bg-[#1da1ff] hover:bg-white hover:text-[#1da1ff] border-2 border-[#1da1ff] transition-all duration-300 px-4 py-2 md:px-8 md:py-3 text-white shadow-lg text-lg md:text-xl xl:text-2xl font-semibold rounded-lg hover:scale-105"
         >
           About Me

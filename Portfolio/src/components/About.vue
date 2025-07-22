@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full sm:h-screen flex justify-center items-center pt-32">
+  <div  id="about" class="w-full h-full sm:h-screen flex justify-center items-center pt-32">
     <div class="grid xl:grid-cols-3 grid-cols-1 w-full h-full place-content-center place-items-center xl:gap-20 gap-3">
 
       <div class="xl:w-full w-1/2 max-w-[1000px] min-w-[200px] p-1 flex justify-center items-center">
