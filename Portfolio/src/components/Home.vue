@@ -35,7 +35,7 @@
 
     <!-- Left Section: Text (order changes) -->
     <section
-      class="gap-0 md:gap-4 mt-4 lg:mt-0 text-start px-8 flex flex-col items-start justify-center order-2 lg:order-1"
+      class="gap-0 md:gap-4 mt-4 lg:mt-0 text-start flex flex-col items-start justify-center order-2 lg:order-1"
     >
       <h1
         class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 font-bold"
@@ -56,7 +56,7 @@
         class="text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-600 mt-4 leading-relaxed"
       >
         Junior Full Stack Developer | Crafting modern web experiences with Vue,
-        React, Spring Boot, Django PHP.
+        React, Spring Boot, Django and PHP.
       </p>
 
       <div

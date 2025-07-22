@@ -1,6 +1,9 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 p-2 md:px-14 lg:px-22 xl:px-32 2xl:px-64 flex flex-wrap items-center py-4 bg-white"
+    :class="[
+      'fixed top-0 left-0 right-0 z-50 p-2 md:px-14 lg:px-22 xl:px-32 2xl:px-64 flex flex-wrap items-center py-4 transition-all duration-300',
+      isScrolled ? 'bg-white shadow-md' : 'bg-transparent',
+    ]"
   >
     <div class="flex-1 flex justify-between items-center">
       <a href="#" class="text-3xl md:text-4xl font-bold text-gray-800">
@@ -12,7 +15,7 @@
     <button @click="toggleMenu" class="md:hidden focus:outline-none">
       <svg
         v-if="!isOpen"
-        class="w-8 h-8 cursor-pointer text-gray-900 transition-transform duration-300"
+        class="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer text-gray-900 transition-transform duration-300"
         fill="currentColor"
         viewBox="0 0 20 20"
       >
@@ -21,7 +24,7 @@
 
       <svg
         v-else
-        class="w-8 h-8 cursor-pointer text-gray-900 transition-transform duration-300 transform rotate-180"
+        class="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer text-gray-900 transition-transform duration-300 transform rotate-180"
         fill="currentColor"
         viewBox="0 0 20 20"
       >
@@ -41,51 +44,51 @@
       >
         <nav>
           <ul class="md:flex items-center gap-8 text-gray-700 pt-4 md:pt-0">
-          <li>
-            <a
-              href="#"
-              class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
-            >
-              Portfolio
-              <span
-                class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
-            >
-              Projects
-              <span
-                class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#about"
-              class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
-            >
-              About me
-              <span
-                class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
-            >
-              Contact
-              <span
-                class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
-              ></span>
-            </a>
-          </li>
-        </ul>
+            <li>
+              <a
+                href="#"
+                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Portfolio
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Projects
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+              >
+                About me
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Contact
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </transition>
@@ -98,6 +101,7 @@ export default {
     return {
       isOpen: false,
       isLargeScreen: false,
+      isScrolled: false, // NEW
     };
   },
   methods: {
@@ -115,13 +119,19 @@ export default {
         this.isOpen = false;
       }
     },
+    handleScroll() {
+      this.isScrolled = window.scrollY > 10; // Add background when scroll > 10px
+    },
   },
   mounted() {
     this.handleResize();
+    this.handleScroll();
     window.addEventListener("resize", this.handleResize);
+    window.addEventListener("scroll", this.handleScroll);
   },
   beforeUnmount() {
     window.removeEventListener("resize", this.handleResize);
+    window.removeEventListener("scroll", this.handleScroll);
   },
 };
 </script>
@@ -134,7 +144,7 @@ export default {
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #2DA6FF;
+  background-color: #2da6ff;
   transition: width 0.3s ease;
 }
 
