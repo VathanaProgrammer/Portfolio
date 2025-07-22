@@ -1,18 +1,18 @@
 <template>
-  <div class="flex justify-center items-center sm:h-screen h-full py-30  text-gray-700">
-    <div class="grid sm:grid-cols-2 grid-cols-1 gap-16 text-xl place-content-center-safe w-full">
+  <div class="flex justify-center items-center xl:h-screen h-full py-30  text-gray-700">
+    <div class="grid xl:grid-cols-2 grid-cols-1 gap-16 text-xl place-content-center-safe w-full">
       
       <!-- Left: Contact Form -->
       <div class="flex flex-col sm:p-15 p-5 shadow-lg rounded-lg bg-gradient-to-r from-blue-50 via-gray-50 to-white">
-        <h4 class="sm:text-5xl text-4xl sm-text-start text-center font-semibold mb-2">
+        <h4 class="sm:text-4xl text-3xl sm-text-start text-center font-semibold mb-2">
           Contact <span class="text-orange-400">Us</span>
         </h4>
-        <h4 class="sm:text-3xl text-xl font-medium mb-4">Get in Touch</h4>
+        <h4 class="sm:text-2xl text-xl font-medium mb-4">Get in Touch</h4>
         <p class="mb-6 text-gray-950 sm:text-xl text-sm">
           Have questions or need help? Fill out the form below and we’ll get back to you shortly.
         </p>
 
-        <form class="flex flex-col sm:grid sm:grid-cols-2 gap-5 space-y-4 sm:text-xl text-sm">
+        <form class="flex flex-col lg:grid lg:grid-cols-2 gap-5 space-y-4 sm:text-xl text-sm">
           <input
             type="text"
             placeholder="Your Name"
@@ -38,19 +38,19 @@
 
       <!-- Right: Contact Info -->
       <div class="flex flex-col gap-4 sm:p-15 px-5 sm:text-xl text-sm">
-        <h5 class="sm:text-5xl text-3xl font-semibold mb-4 sm:text-start text-center">Contact <span class=" text-orange-400">Information</span></h5>
+        <h5 class="sm:text-3xl text-2xl font-semibold mb-4 ">Contact <span class=" text-orange-400">Information</span></h5>
         
-        <p class="text-gray-700">
+        <p class="text-gray-700 sm:text-xl text-sm">
           <i class="fa-solid fa-envelope mx-2"></i>
           <strong>Email :</strong> support@example.com
         </p>
 
-        <p class="text-gray-700">
+        <p class="text-gray-700 sm:text-xl text-sm ">
           <i class="fa-solid fa-phone mx-2"></i>
           <strong>Phone : </strong> +855 12 345 678
         </p>
 
-        <p class="text-gray-700">
+        <p class="text-gray-700 sm:text-xl text-sm ">
           <i class="fa-solid fa-location-dot mx-2"></i>
           <strong>Address : </strong> No. 123, Phnom Penh, Cambodia
         </p>
