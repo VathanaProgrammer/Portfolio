@@ -5,6 +5,7 @@
     <Navbar />
     <Home />
     <About />
+    <Skill/>
     <ContactUS/>
   </div>
 </template>
@@ -14,12 +15,14 @@ import Home from "./Home.vue";
 import Navbar from "./Navbar.vue";
 import About from "./About.vue";
 import ContactUS from "./ContactUS.vue";
+import Skill from "./Skill.vue";
 
 export default {
   components: {
     Navbar,
     Home,
     About,
+    Skill,
     ContactUS
   },
   data() {

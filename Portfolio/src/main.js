@@ -1,6 +1,16 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 import router from './router/router';
+import "./style.css";
+// ✅ Correct named import for Iconify
+import { Icon } from "@iconify/vue";
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App);
+
+// Register Icon globally
+app.component("Icon", Icon);
+
+// Register router before mounting
+app.use(router);
+
+app.mount("#app");
