@@ -6,6 +6,7 @@
     <Home />
     <About />
     <Skill/>
+    <Project/>
     <ContactUS/>
   </div>
 </template>
@@ -14,8 +15,9 @@
 import Home from "./Home.vue";
 import Navbar from "./Navbar.vue";
 import About from "./About.vue";
-import ContactUS from "./ContactUS.vue";
+import ContactUS from "./ContactUs.vue";
 import Skill from "./Skill.vue";
+import Project from "./Project.vue";
 
 export default {
   components: {
@@ -23,6 +25,7 @@ export default {
     Home,
     About,
     Skill,
+    Project,
     ContactUS
   },
   data() {

@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="py-20">
+  <section id="skills" class="py-16 w-full h-full">
     <!-- Section Title -->
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
@@ -160,6 +160,14 @@
           <Icon icon="devicon:photoshop" class="w-16 h-16 text-[#F24E1E]" />
         </div>
         <span class="mt-2 font-medium text-gray-700">photoshop</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <div
+          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
+        >
+          <Icon icon="simple-icons:postman" class="w-16 h-16 text-[#F24E1E]" />
+        </div>
+        <span class="mt-2 font-medium text-gray-700">Postmen</span>
       </div>
     </div>
   </section>

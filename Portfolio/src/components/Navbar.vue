@@ -7,7 +7,7 @@
   >
     <div class="flex-1 flex justify-between items-center">
       <a href="#" class="text-3xl md:text-4xl font-bold text-gray-800">
-        Sieng <span class="text-[#2DA6FF]">Vathana</span>
+        <span class="text-[#2DA6FF]">VATHANA</span>
       </a>
     </div>
 
@@ -57,10 +57,10 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
               >
-                Projects
+                About me
                 <span
                   class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
                 ></span>
@@ -68,10 +68,10 @@
             </li>
             <li>
               <a
-                href="#about"
+                href="#skills"
                 class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
               >
-                About me
+                Skills
                 <span
                   class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
                 ></span>

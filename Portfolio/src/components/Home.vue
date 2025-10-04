@@ -5,7 +5,7 @@
     <!-- Right Section: Profile Image -->
     <section class="relative flex justify-center order-1 lg:order-2">
       <div
-        class="relative w-[220px] md:w-[300px] lg:w-[380px] xl:w-[420px] animate-profile"
+        class="relative w-4/5 max-w-[420px] md:max-w-[380px] animate-profile"
       >
         <!-- Glow background -->
         <div
