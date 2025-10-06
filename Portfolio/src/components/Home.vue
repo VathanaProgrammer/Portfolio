@@ -54,6 +54,7 @@
         </a>
         <a
           href="/Portfolio/SiengVathana_CV.pdf"
+          download="/Portfolio/SiengVathana_CV.pdf"
           class="border-2 border-[#1da1ff] text-[#1da1ff] hover:bg-[#1da1ff] hover:text-white px-6 py-3 rounded-xl shadow-lg text-lg font-semibold transition-transform hover:scale-105"
         >
           Download CV
