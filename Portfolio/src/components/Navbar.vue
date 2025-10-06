@@ -112,7 +112,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 Contact
