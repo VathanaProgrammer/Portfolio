@@ -12,7 +12,7 @@
     </div>
 
     <!-- Hamburger / X toggle -->
-    <button @click="toggleMenu" class="md:hidden focus:outline-none">
+    <button @click="toggleMenu" class="lg:hidden focus:outline-none">
       <svg
         v-if="!isOpen"
         class="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer text-gray-900 transition-transform duration-300"
@@ -40,14 +40,14 @@
     <transition name="menu-fade">
       <div
         v-if="isOpen || isLargeScreen"
-        class="md:flex md:items-center md:w-auto w-full absolute md:static top-full left-0 bg-white md:bg-transparent md:shadow-none shadow-lg p-4 md:p-0"
+        class="lg:flex lg:items-center lg:w-auto w-full absolute lg:static top-full left-0 bg-white lg:bg-transparent lg:shadow-none shadow-lg p-4 lg:p-0"
       >
         <nav>
-          <ul class="md:flex items-center gap-8 text-gray-700 pt-4 md:pt-0">
+          <ul class="lg:flex items-center gap-8 text-gray-700 pt-4 md:pt-0">
             <li>
               <a
                 href="#"
-                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 Portfolio
                 <span
@@ -58,7 +58,7 @@
             <li>
               <a
                 href="#about"
-                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 About me
                 <span
@@ -69,7 +69,7 @@
             <li>
               <a
                 href="#skills"
-                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 Skills
                 <span
@@ -79,8 +79,41 @@
             </li>
             <li>
               <a
+                href="#projects"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Projects
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#experiences"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Experiences
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#certificates"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
+              >
+                Certificates
+                <span
+                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
                 href="#"
-                class="group relative text-xl lg:text-2xl font-semibold inline-block pb-1 leading-tight"
+                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 Contact
                 <span
@@ -114,7 +147,7 @@ export default {
       }
     },
     handleResize() {
-      this.isLargeScreen = window.innerWidth >= 768; // md breakpoint
+      this.isLargeScreen = window.innerWidth >= 1024; // md breakpoint
       if (this.isLargeScreen) {
         this.isOpen = false;
       }

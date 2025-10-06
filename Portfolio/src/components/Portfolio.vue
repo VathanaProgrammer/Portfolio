@@ -7,6 +7,8 @@
     <About />
     <Skill/>
     <Project/>
+    <Experience/>
+    <Certificates />
     <ContactUS/>
   </div>
 </template>
@@ -18,10 +20,14 @@ import About from "./About.vue";
 import ContactUS from "./ContactUs.vue";
 import Skill from "./Skill.vue";
 import Project from "./Project.vue";
+import Experience from "./Experience.vue";
+import Certificates from "./Certificates.vue";
 
 export default {
   components: {
     Navbar,
+    Experience,
+    Certificates,
     Home,
     About,
     Skill,
