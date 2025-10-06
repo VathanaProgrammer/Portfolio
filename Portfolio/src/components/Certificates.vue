@@ -28,7 +28,7 @@
             Successfully completed a 6–7 month internship at ACLEDA University of Business, contributing to web development projects and gaining hands-on experience in frontend and backend development, teamwork, and professional workflows.
           </p>
           <a
-            href="../../Portfolio/public/AUB-Certificte_C0000092.pdf"
+            href="/Portfolio/AUB-Certificte_C0000092.pdf"
             target="_blank"
             class="text-[#1da1ff] font-semibold hover:underline"
           >
