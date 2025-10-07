@@ -36,7 +36,7 @@
           </p>
 
           <a
-            href="https://github.com/VathanaProgrammer/Intern_pos_project.git"
+            href="https://github.com/VathanaProgrammer/Intern_pos_project"
             class="text-[#1da1ff] font-semibold hover:underline"
           >
             View Project
