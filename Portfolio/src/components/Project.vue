@@ -49,12 +49,12 @@
             Django Point of Sale Application
           </h2>
           <p class="text-gray-700 mb-4 line-clamp-5">
-            A web-based Point of Sale (POS) system developed as my final project
-            for the Web Development course. The application manages products,
-            sales, customers, and transactions, with Django powering the backend
-            and jQuery adding interactive frontend features. This project helped
-            me gain hands-on experience in backend development, frontend
-            interactions, and building database-driven applications.
+            A full-stack Point of Sale (POS) system developed as my final
+            project for the Web Development course. The application manages
+            products, sales, customers, and transactions, with Django handling
+            the backend and SQLite as the database. jQuery is used for
+            interactive frontend features, such as dynamic forms and real-time
+            updates.
           </p>
 
           <!-- <a -->
