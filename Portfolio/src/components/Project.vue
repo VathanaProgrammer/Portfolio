@@ -34,13 +34,35 @@
             teamwork, backend development, and handling database-driven
             applications.
           </p>
+        </div>
+      </div>
+      <div
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md"
+      >
+        <img
+          src="../assets/image/Pos_django.png"
+          alt="Project 1"
+          class="w-full h-56 object-cover"
+        />
+        <div class="p-6">
+          <h2 class="text-2xl font-semibold mb-2">
+            Django Point of Sale Application
+          </h2>
+          <p class="text-gray-700 mb-4 line-clamp-5">
+            A web-based Point of Sale (POS) system developed as my final project
+            for the Web Development course. The application manages products,
+            sales, customers, and transactions, with Django powering the backend
+            and jQuery adding interactive frontend features. This project helped
+            me gain hands-on experience in backend development, frontend
+            interactions, and building database-driven applications.
+          </p>
 
-          <a
-            href="https://github.com/VathanaProgrammer/Intern_pos_project"
-            class="text-[#1da1ff] font-semibold hover:underline"
-          >
-            View Project
-          </a>
+          <!-- <a -->
+          <!-- href="https://github.com/VathanaProgrammer/Intern_pos_project" -->
+          <!-- class="text-[#1da1ff] font-semibold hover:underline" -->
+          <!-- > -->
+          <!-- View Project -->
+          <!-- </a> -->
         </div>
       </div>
     </div>
@@ -50,9 +72,10 @@
       <a
         href="https://github.com/VathanaProgrammer?tab=repositories"
         target="_blank"
-        class=" bg-[#1da1ff] px-4 md:text-[18px] py-3 inline-flex items-center text-white rounded-lg shadow-md hover:bg-[#0d8de3] transition"
+        class="bg-[#1da1ff] px-4 md:text-[18px] py-3 inline-flex items-center text-white rounded-lg shadow-md hover:bg-[#0d8de3] transition"
       >
-        See More on GitHub <span> <Icon icon="ic:round-navigate-next" class="w-8 h-8" /></span>
+        See More on GitHub
+        <span> <Icon icon="ic:round-navigate-next" class="w-8 h-8" /></span>
       </a>
     </div>
   </div>
