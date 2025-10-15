@@ -1,6 +1,5 @@
 <template>
   <section id="skills" class="py-16 w-full h-full">
-    <!-- Section Title -->
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
         <span class="text-[#1da1ff]">My Skills</span>
@@ -14,171 +13,49 @@
     <div
       class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 max-w-6xl mx-auto justify-items-center items-center"
     >
-      <!-- Skill Card -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon
-            icon="vscode-icons:file-type-vue"
-            class="w-16 h-16 text-[#42b883]"
-          />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Vue.js</span>
-      </div>
+      <!-- Frontend -->
+      <SkillCard icon="vscode-icons:file-type-html" name="HTML5" />
+      <SkillCard icon="vscode-icons:file-type-css2" name="CSS3" />
+      <SkillCard
+        icon="vscode-icons:file-type-js-official"
+        name="JavaScript (ES6)"
+      />
+      <SkillCard icon="vscode-icons:file-type-vue" name="Vue.js" />
+      <SkillCard icon="logos:react" name="React" />
+      <SkillCard icon="devicon:tailwindcss" name="Tailwind CSS" />
+      <SkillCard icon="devicon:bootstrap" name="Bootstrap" />
+      <SkillCard icon="devicon:jquery" name="jQuery" />
 
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="mdi:react" class="w-16 h-16 text-[#61dafb]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">React</span>
-      </div>
+      <!--  Backend -->
+      <SkillCard icon="logos:php" name="PHP" />
+      <SkillCard icon="logos:laravel" name="Laravel" />
+      <SkillCard icon="logos:spring-icon" name="Spring Boot" />
+      <SkillCard icon="devicon:csharp" name="C#" />
+      <SkillCard icon="simple-icons:dotnet" name="ASP.NET Core" />
+     <SkillCard icon="mdi:api" name="REST API" />
 
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="mdi:tailwind" class="w-16 h-16 text-[#38bdf8]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Tailwind</span>
-      </div>
+      <!-- Databases -->
+      <SkillCard icon="devicon:microsoftsqlserver" name="SQL Server" />
+      <SkillCard icon="devicon:mysql" name="MySQL" />
+      <SkillCard icon="devicon:oracle" name="Oracle" />
 
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="devicon:jquery" class="w-16 h-16 text-[#f7df1e]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">JQuery</span>
-      </div>
+      <!--  Tools -->
+      <SkillCard icon="logos:git-icon" name="Git" />
+      <SkillCard icon="logos:github-icon" name="GitHub" />
+      <SkillCard icon="logos:docker-icon" name="Docker" />
+      <SkillCard icon="devicon:postman" name="Postman" />
 
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:php" class="w-16 h-16 text-[#777bb4]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">PHP</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:laravel" class="w-16 h-16 text-[#42b883]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Laravel</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:spring-icon" class="w-16 h-16 text-[#6db33f]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Spring Boot</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="simple-icons:dotnet" class="w-16 h-16 text-[#512BD4]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">ASP.NET Core</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon
-            icon="devicon:microsoftsqlserver"
-            class="w-16 h-16 text-[#512BD4]"
-          />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">SQL Server</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="devicon:mysql" class="w-16 h-16 text-[#512BD4]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">MySql</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="devicon:oracle" class="w-16 h-16 text-[#512BD4]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Oracle</span>
-      </div>
-      <!-- Add Git -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:git-icon" class="w-16 h-16 text-[#F05032]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Git</span>
-      </div>
-
-      <!-- Add GitHub -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:github-icon" class="w-16 h-16 text-gray-800" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">GitHub</span>
-      </div>
-
-      <!-- Add Docker -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:docker-icon" class="w-16 h-16 text-[#0db7ed]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Docker</span>
-      </div>
-
-      <!-- Add Figma -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="logos:figma" class="w-16 h-16 text-[#F24E1E]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Figma</span>
-      </div>
-      <!-- Add Figma -->
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="devicon:photoshop" class="w-16 h-16 text-[#F24E1E]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">photoshop</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
-        >
-          <Icon icon="simple-icons:postman" class="w-16 h-16 text-[#F24E1E]" />
-        </div>
-        <span class="mt-2 font-medium text-gray-700">Postmen</span>
-      </div>
+      <!--  Design -->
+      <SkillCard icon="logos:figma" name="Figma" />
+      <SkillCard icon="devicon:photoshop" name="Photoshop" />
     </div>
   </section>
 </template>
 
 <script>
-import { Icon } from "@iconify/vue";
+import SkillCard from "./SkillCard.vue"; 
 
 export default {
-  components: {
-    Icon,
-  },
+  components: { SkillCard },
 };
 </script>
