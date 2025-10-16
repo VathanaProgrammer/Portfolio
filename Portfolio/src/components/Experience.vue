@@ -6,7 +6,7 @@
     <!-- Section Title -->
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">My Experiences</span>
+        <span class="text-[#1da1ff]">Experiences</span>
       </h1>
       <p class="text-gray-600 mt-4 text-lg md:text-xl">
         Highlights of my internships and work experiences

@@ -12,7 +12,7 @@
       >
         <img
           src="../assets/image/vathana.png"
-          class=" object-cover rounded-xl"
+          class="object-cover rounded-xl"
           alt="Profile"
         />
       </div>
@@ -21,18 +21,27 @@
       <div class="col-span-2 w-full max-w-xl px-5 sm:px-10">
         <div class="space-y-6">
           <h1 class="lg:text-5xl text-3xl font-semibold">
-           <span class="text-[#1da1ff]">About Me</span>
+            <span class="text-[#1da1ff]">About Me</span>
           </h1>
 
           <p class="text-lg text-gray-700 leading-relaxed">
-           I’m a Web Developer and a third-year Computer Science student with 6–7 months of internship experience, where I worked on building web applications both independently and with a team. I enjoy creating clean and interactive websites and building backends that bring projects to life.
+            I’m a <span class="font-semibold">Programmer</span> and a third-year 
+            <span class="font-semibold">Computer Science student</span> with over 6 months of internship experience. 
+            I’ve built full-stack web and desktop applications using 
+            <span class="font-semibold">Vue.js, Laravel, Spring Boot, Django, ASP.NET Core,</span> and 
+            <span class="font-semibold">C#</span>.
           </p>
 
           <p class="text-lg text-gray-700 leading-relaxed">
-            I’m a friendly and open-minded person who values teamwork and clear communication. I like sharing ideas, learning from others, and supporting my teammates to reach goals together. Problem-solving is something I enjoy, whether it’s connecting APIs, managing databases, or fixing unexpected issues
+            I enjoy creating <span class="font-semibold">clean, responsive interfaces</span> 
+            and developing <span class="font-semibold">reliable backend systems</span>. 
+            During my internship, I worked closely with teams to plan, build, and deploy real-world projects.
           </p>
+
           <p class="text-lg text-gray-700 leading-relaxed">
-            I’m always curious to learn new technologies and improve my skills. My goal is to grow as a developer, take on real-world challenges, and create web experiences that are not only functional but also enjoyable to use.
+            I’m a <span class="font-semibold">team player</span> who values communication, learning, and problem-solving — 
+            whether it’s fixing bugs, integrating APIs, or optimizing database performance. 
+            My goal is to grow as a developer and build software that’s both functional and enjoyable to use.
           </p>
         </div>
       </div>

@@ -34,14 +34,14 @@
       </h1>
 
       <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
-        <span class="font-semibold text-[#1da1ff]">Web Developer</span> creating
-        websites and apps. I use 
+        <span class="font-semibold text-[#1da1ff]">Programmer</span> passionate
+        about building modern web and desktop applications. Skilled in
         <span class="font-semibold">Vue.js</span>,
         <span class="font-semibold">Laravel</span>,
-        <span class="font-semibold">Django</span>,
-        <span class="font-semibold">ASP.NET Core</span>, and
-        <span class="font-semibold">Spring Boot</span>. Scroll down to see my
-        projects.
+        <span class="font-semibold">Spring Boot</span>,
+        <span class="font-semibold">Django</span>, and
+        <span class="font-semibold">C#</span>. I enjoy turning ideas into clean,
+        functional, and user-friendly software.
       </p>
 
       <!-- Buttons -->

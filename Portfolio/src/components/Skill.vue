@@ -2,7 +2,7 @@
   <section id="skills" class="py-16 w-full h-full">
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">My Skills</span>
+        <span class="text-[#1da1ff]">Skills & Tech Stack</span>
       </h1>
       <p class="text-gray-600 mt-4 text-lg md:text-xl">
         Tools and technologies I use to build web applications

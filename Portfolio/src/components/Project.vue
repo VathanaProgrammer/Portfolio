@@ -6,7 +6,7 @@
     <!-- Section Title -->
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">My Projects</span>
+        <span class="text-[#1da1ff]">Projects</span>
       </h1>
       <p class="text-gray-600 mt-4 text-lg md:text-xl">
         A selection of web applications I've built using various technologies
@@ -63,6 +63,24 @@
           <!-- > -->
           <!-- View Project -->
           <!-- </a> -->
+        </div>
+      </div>
+      <div
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md"
+      >
+        <img
+          src="../assets/image/Library_mgmt.png"
+          alt="Project 1"
+          class="w-full h-56 object-cover"
+        />
+        <div class="p-6">
+          <h2 class="text-2xl font-semibold mb-2">Library Management System</h2>
+          <p class="text-gray-700 mb-4 line-clamp-5">
+            Library Management System — A desktop application built with C# and
+            .NET to manage books, users, and borrowing records. Supports full
+            CRUD operations, search, reporting, and real-time stock tracking for
+            borrowed and returned books.
+          </p>
         </div>
       </div>
     </div>

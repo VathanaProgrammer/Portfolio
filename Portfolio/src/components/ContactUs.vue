@@ -6,7 +6,7 @@
     <!-- Section Title -->
     <header class="text-center mb-12">
       <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">Contact</span>
+        <span class="text-[#1da1ff]">Let’s chat</span>
       </h1>
       <p class="text-gray-600 mt-4 text-lg md:text-xl">
         You can reach me through email or connect with me on social platforms
