@@ -21,7 +21,7 @@
         name="JavaScript (ES6)"
       />
       <SkillCard icon="vscode-icons:file-type-vue" name="Vue.js" />
-      <SkillCard icon="logos:react" name="React" />
+      <!-- <SkillCard icon="logos:react" name="React" /> -->
       <SkillCard icon="devicon:tailwindcss" name="Tailwind CSS" />
       <SkillCard icon="devicon:bootstrap" name="Bootstrap" />
       <SkillCard icon="devicon:jquery" name="jQuery" />

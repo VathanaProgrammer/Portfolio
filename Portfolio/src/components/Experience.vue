@@ -16,7 +16,7 @@
     <!-- Experiences Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto">
       <div
-        class="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-md"
+        class="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-md transform transition-transform duration-300 lg:hover:scale-105"
       >
         <img
           src="../assets/image/ACLEDA-banner.jpg"
@@ -33,7 +33,7 @@
             contributing to web development projects. Worked collaboratively
             with the team to design interfaces, improve user experience, and
             develop both frontend and backend features using ASP.NET, jQuery,
-            Tailwind CSS, and SQL Server. Gained hands-on experience with Git,
+            Tailwind CSS, and SQL Server. Gained hands-on experience with Git, Github,
             Figma, and web development best practices.
           </p>
         </div>

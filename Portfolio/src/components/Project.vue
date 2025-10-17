@@ -17,7 +17,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto">
       <!-- Project Card -->
       <div
-        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md"
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md transform transition-transform duration-300 lg:hover:scale-105"
       >
         <img
           src="../assets/image/Pos.png"
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div
-        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md"
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md transform transition-transform duration-300 lg:hover:scale-105"
       >
         <img
           src="../assets/image/Pos_django.png"
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div
-        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md"
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow w-full max-w-md transform transition-transform duration-300 lg:hover:scale-105"
       >
         <img
           src="../assets/image/Library_mgmt.png"
