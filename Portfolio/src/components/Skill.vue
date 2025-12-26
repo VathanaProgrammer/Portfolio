@@ -11,49 +11,47 @@
 
     <!-- Skills Grid -->
     <div
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 max-w-6xl mx-auto justify-items-center items-center"
-    >
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 max-w-6xl mx-auto justify-items-center items-center">
+
       <!-- Frontend -->
       <SkillCard icon="vscode-icons:file-type-html" name="HTML5" />
       <SkillCard icon="vscode-icons:file-type-css2" name="CSS3" />
-      <SkillCard
-        icon="vscode-icons:file-type-js-official"
-        name="JavaScript (ES6)"
-      />
+      <SkillCard icon="vscode-icons:file-type-js-official" name="JavaScript (ES6)" />
       <SkillCard icon="vscode-icons:file-type-vue" name="Vue.js" />
-      <!-- <SkillCard icon="logos:react" name="React" /> -->
       <SkillCard icon="devicon:tailwindcss" name="Tailwind CSS" />
       <SkillCard icon="devicon:bootstrap" name="Bootstrap" />
       <SkillCard icon="devicon:jquery" name="jQuery" />
 
-      <!--  Backend -->
+      <!-- Backend -->
       <SkillCard icon="logos:php" name="PHP" />
       <SkillCard icon="logos:laravel" name="Laravel" />
       <SkillCard icon="logos:spring-icon" name="Spring Boot" />
       <SkillCard icon="devicon:csharp" name="C#" />
       <SkillCard icon="simple-icons:dotnet" name="ASP.NET Core" />
-     <SkillCard icon="mdi:api" name="REST API" />
+      <SkillCard icon="mdi:api" name="REST API" />
+      <SkillCard icon="logos:python" name="Python" />
 
       <!-- Databases -->
       <SkillCard icon="devicon:microsoftsqlserver" name="SQL Server" />
       <SkillCard icon="devicon:mysql" name="MySQL" />
       <SkillCard icon="devicon:oracle" name="Oracle" />
 
-      <!--  Tools -->
+      <!-- Tools & DevOps -->
       <SkillCard icon="logos:git-icon" name="Git" />
       <SkillCard icon="logos:github-icon" name="GitHub" />
-      <SkillCard icon="logos:docker-icon" name="Docker" />
+      <SkillCard icon="logos:github-actions" name="GitHub Actions" />
       <SkillCard icon="devicon:postman" name="Postman" />
+      <SkillCard icon="logos:docker-icon" name="Docker" />
+      <SkillCard icon="logos:ubuntu" name="Ubuntu" />
 
-      <!--  Design -->
+      <!-- Design -->
       <SkillCard icon="logos:figma" name="Figma" />
-      <SkillCard icon="devicon:photoshop" name="Photoshop" />
     </div>
   </section>
 </template>
 
 <script>
-import SkillCard from "./SkillCard.vue"; 
+import SkillCard from "./SkillCard.vue";
 
 export default {
   components: { SkillCard },
