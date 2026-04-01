@@ -11,9 +11,9 @@
         class="xl:w-full w-1/2 max-w-[1000px] min-w-[200px] p-1 flex justify-center items-center"
       >
         <img
-          src="../assets/image/vathana.png"
-          class="object-cover rounded-xl"
-          alt="Profile"
+          src="../assets/image/anime_profile_user.jpg"
+          class="object-cover rounded-full w-72 h-72 border-4 border-[#1da1ff]/10 shadow-[0_0_30px_rgba(29,161,255,0.2)]"
+          alt="User Preferred Profile"
         />
       </div>
 

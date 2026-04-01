@@ -14,9 +14,9 @@
 
         <!-- Profile image -->
         <img
-          src="../assets/image/vathana.png"
-          class="relative w-full h-full object-cover rounded-2xl md:mt-10 mt-6 shadow-xl"
-          alt="Sieng Vathana"
+          src="../assets/image/anime_profile_user.jpg"
+          class="relative w-full h-full object-cover rounded-full md:mt-10 mt-6 shadow-[0_0_30px_rgba(29,161,255,0.3)] border-4 border-white/10"
+          alt="User Preferred Profile"
         />
       </div>
     </section>
