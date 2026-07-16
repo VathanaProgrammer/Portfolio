@@ -1,30 +1,37 @@
 <template>
-  <div
+  <section
     id="about"
-    class="w-full min-h-screen flex justify-center items-center pt-5 md:pt-32"
+    aria-labelledby="about-title"
+    class="flex min-h-screen w-full items-center justify-center py-24"
   >
     <div
-      class="grid xl:grid-cols-3 grid-cols-1 w-full h-full place-content-center place-items-center xl:gap-20 gap-3"
+      class="grid w-full grid-cols-1 place-items-center gap-12 lg:grid-cols-[minmax(240px,0.8fr)_minmax(0,1.5fr)] lg:gap-20"
     >
       <!-- Profile Image -->
       <div
-        class="xl:w-full w-1/2 max-w-[1000px] min-w-[200px] p-1 flex justify-center items-center"
+        class="flex w-full min-w-[200px] justify-center p-1"
       >
         <img
           src="../assets/image/anime_profile_user.jpg"
-          class="object-cover rounded-full w-72 h-72 border-4 border-[#1da1ff]/10 shadow-[0_0_30px_rgba(29,161,255,0.2)]"
-          alt="User Preferred Profile"
+          class="h-72 w-72 rounded-[2rem] border border-white object-cover shadow-[0_24px_60px_rgba(20,36,59,0.16)]"
+          alt="Illustrated portrait of Sieng Vathana"
         />
       </div>
 
       <!-- About Me Text -->
-      <div class="col-span-2 w-full max-w-xl px-5 sm:px-10">
+      <div class="w-full max-w-2xl">
         <div class="space-y-6">
-          <h1 class="lg:text-5xl text-3xl font-semibold">
-            <span class="text-[#1da1ff]">About Me</span>
-          </h1>
+          <div class="flex items-center gap-2" aria-hidden="true">
+            <span class="h-2 w-2 rounded-full bg-[#1688dc]"></span>
+            <span class="h-px w-12 bg-[#1688dc]/45"></span>
+            <span class="h-2 w-2 rounded-full border-2 border-[#1688dc]"></span>
+          </div>
 
-          <p class="text-lg text-gray-700 leading-relaxed">
+          <h2 id="about-title" class="text-3xl font-bold tracking-tight text-[#14243b] lg:text-5xl">
+            About me
+          </h2>
+
+          <p class="text-lg leading-relaxed text-slate-600">
             I’m a <span class="font-semibold">Programmer</span> and a third-year 
             <span class="font-semibold">Computer Science student</span> with over 6 months of internship experience. 
             I’ve built full-stack web and desktop applications using 
@@ -32,13 +39,13 @@
             <span class="font-semibold">C#</span>.
           </p>
 
-          <p class="text-lg text-gray-700 leading-relaxed">
+          <p class="text-lg leading-relaxed text-slate-600">
             I enjoy creating <span class="font-semibold">clean, responsive interfaces</span> 
             and developing <span class="font-semibold">reliable backend systems</span>. 
             During my internship, I worked closely with teams to plan, build, and deploy real-world projects.
           </p>
 
-          <p class="text-lg text-gray-700 leading-relaxed">
+          <p class="text-lg leading-relaxed text-slate-600">
             I’m a <span class="font-semibold">team player</span> who values communication, learning, and problem-solving — 
             whether it’s fixing bugs, integrating APIs, or optimizing database performance. 
             My goal is to grow as a developer and build software that’s both functional and enjoyable to use.
@@ -46,5 +53,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>

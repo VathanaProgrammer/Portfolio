@@ -1,17 +1,12 @@
 <template>
-  <div
+  <section
     id="experiences"
-    class="w-full h-full flex flex-col justify-center items-center py-16"
+    class="flex w-full flex-col items-center justify-center py-24"
   >
-    <!-- Section Title -->
-    <header class="text-center mb-12">
-      <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">Experiences</span>
-      </h1>
-      <p class="text-gray-600 mt-4 text-lg md:text-xl">
-        Highlights of my internships and work experiences
-      </p>
-    </header>
+    <SectionHeading
+      title="Experience"
+      description="Highlights from my internships and professional work"
+    />
 
     <!-- Experiences Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 w-full max-w-6xl">
@@ -20,7 +15,9 @@
         :key="exp.title"
         :href="exp.mapUrl"
         target="_blank"
-        class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden group transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer no-underline block"
+        rel="noopener noreferrer"
+        :aria-label="`${exp.title} — view location on Google Maps`"
+        class="group block cursor-pointer overflow-hidden rounded-2xl border border-slate-200/80 bg-white/90 shadow-[0_12px_40px_rgba(20,36,59,0.07)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(20,36,59,0.12)]"
       >
         <div class="relative overflow-hidden h-64">
           <img
@@ -28,31 +25,33 @@
             :alt="exp.title"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          <div class="absolute top-4 right-4 bg-[#1da1ff] text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">
+          <div class="absolute right-4 top-4 rounded-full bg-[#1688dc] px-3 py-1 text-xs font-bold text-white shadow-md">
             {{ exp.period }}
           </div>
         </div>
         <div class="p-8">
-          <h2 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#1da1ff] transition-colors duration-300">
+          <h3 class="mb-3 text-2xl font-bold text-[#14243b] transition-colors duration-300 group-hover:text-[#1688dc]">
             {{ exp.title }}
-          </h2>
-          <p class="text-gray-600 leading-relaxed" v-html="exp.description"></p>
-          <div class="mt-6 flex items-center gap-2 text-[#1da1ff] font-bold text-sm uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          </h3>
+          <p class="leading-relaxed text-slate-600" v-html="exp.description"></p>
+          <div class="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[#1688dc]">
             <Icon icon="mdi:map-marker" class="text-lg" />
-            View Location
+            View location
           </div>
         </div>
       </a>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 import { Icon } from "@iconify/vue";
+import SectionHeading from "./SectionHeading.vue";
 
 export default {
   components: {
     Icon,
+    SectionHeading,
   },
   data() {
     return {

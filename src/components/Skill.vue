@@ -1,17 +1,14 @@
 <template>
-  <section id="skills" class="py-16 w-full h-full">
-    <header class="text-center mb-12">
-      <h1 class="lg:text-5xl text-3xl font-semibold">
-        <span class="text-[#1da1ff]">Skills & Tech Stack</span>
-      </h1>
-      <p class="text-gray-600 mt-4 text-lg md:text-xl">
-        Tools and technologies I use to build web applications
-      </p>
-    </header>
+  <section id="skills" class="flex w-full flex-col items-center py-24">
+    <SectionHeading
+      title="Skills & tech stack"
+      description="Tools and technologies I use to build web applications"
+    />
 
     <!-- Skills Grid -->
-    <div
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 max-w-6xl mx-auto justify-items-center items-center">
+    <ul
+      class="mx-auto grid w-full max-w-6xl grid-cols-2 items-stretch gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
+    >
 
       <!-- Frontend -->
       <SkillCard icon="vscode-icons:file-type-html" name="HTML5" />
@@ -46,14 +43,15 @@
 
       <!-- Design -->
       <SkillCard icon="logos:figma" name="Figma" />
-    </div>
+    </ul>
   </section>
 </template>
 
 <script>
+import SectionHeading from "./SectionHeading.vue";
 import SkillCard from "./SkillCard.vue";
 
 export default {
-  components: { SkillCard },
+  components: { SectionHeading, SkillCard },
 };
 </script>
